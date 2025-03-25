@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api", routes);
 
 app.use("*", (req, res) => {
-  res.status(404).json({ message: "Invalid Request AS 2 master ok as mm mmm" });
+  res.status(404).json({ message: "Invalid Request AS 2 master ok as mm mmm ff" });
 });
 
 app.listen(port, () => {
