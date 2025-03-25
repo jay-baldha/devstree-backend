@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api", routes);
 
 app.use("*", (req, res) => {
-  res.status(404).json({ message: "Invalid Request AS" });
+  res.status(404).json({ message: "Invalid Request AS 2" });
 });
 
 app.listen(port, () => {
